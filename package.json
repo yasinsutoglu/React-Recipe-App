@@ -1,5 +1,4 @@
 {
-  "homepage": "http://yasinsutoglu.github.io/React-Recipe-App",
   "name": "recipe-app-react",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +6,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "6.3",
@@ -19,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

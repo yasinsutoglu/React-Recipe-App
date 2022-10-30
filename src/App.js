@@ -1,6 +1,6 @@
 
 import {ThemeProvider} from "styled-components"
-import {BrowserRouter, HashRouter} from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 import {AppRouter} from "./Router/AppRouter";
 import { GlobalStyles } from './Style/Global.style'
 
@@ -29,10 +29,10 @@ const theme= {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <HashRouter>
+      <BrowserRouter>
         <GlobalStyles />
         <AppRouter />
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
     
        
