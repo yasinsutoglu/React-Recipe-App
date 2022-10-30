@@ -13,7 +13,7 @@ const Navbar = () => {
       <Links>
         <NavLink  href="/home">Home</NavLink>
         <NavLink  href="/private/about">About</NavLink>
-        <NavLink  href="https://google.com" target="_blank">Githubs</NavLink>
+        <NavLink  href="https://github.com/yasinsutoglu" target="_blank">Githubs</NavLink>
         <NavLink  href="/login" onClick={()=> removeUser()}>Logout</NavLink>
       </Links>
     </Nav>

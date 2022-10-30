@@ -69,6 +69,8 @@ SOLUTION
 
 - Fetch API
 
+-LocalStorage
+
 ### At the end of the project, i will be able to;
 
 - improve coding skills within HTML & CSS & JS & REACT.js
