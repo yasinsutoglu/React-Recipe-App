@@ -69,7 +69,7 @@ SOLUTION
 
 - Fetch API
 
--LocalStorage
+- LocalStorage
 
 ### At the end of the project, i will be able to;
 
